@@ -1,7 +1,7 @@
 # Projeto de tela de Login
  Criação de uma tela de Login em HTML, CSS e JS. Este projeto front-end foi feito com o intuito de estudar JavaScript e aprimorar meus conhecimentos em CSS (principalmente em relação ao uso de Media Queries e criação de sites responsivos). <br> <br>
  O HTML foi usado para estruturar o site e controlar o comportamento de alguns elementos (ex.: campos obrigatórios com required, minlength/maxlength para definir um limite de caracteres no campo de entrada, entre outros), o CSS para estilização, e JavaScript para a criação de um botão que exibe e oculta a senha ao ser clicado. <br> <br>
-Figma foi a ferramenta escolhida para para prototipar a interface do site, e foi usada a estratégia de Mobile First (priorizar o desenvolvimento de sites para dispositivos móveis, antes de desktop) para deixar o site responsivo e mais intuitivo para diferentes públicos.
+Figma foi a ferramenta escolhida para para prototipar a interface do site, e foi usada a estratégia de Mobile First (priorizar o desenvolvimento de sites para dispositivos móveis, antes de desktop) para deixar o site responsivo e o design mais intuitivo para diferentes públicos.
 
 # Visualização
 
