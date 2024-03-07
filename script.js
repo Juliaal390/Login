@@ -1,13 +1,13 @@
-document.getElementById('showPasswordBtn').addEventListener('mousedown', function(event) {
-    event.preventDefault(); /* impede que o foco seja alterado */
-    var senha = document.getElementById('senha');
+document.getElementById('showPasswordBtn').addEventListener('mousedown', function(foco) {
+    foco.preventDefault(); /* Cancela o evento se for cancelável, sem parar a propagação do mesmo */
+    let senha = document.getElementById('senha');
     if (senha.type === 'password') {
         senha.type = 'text';
     } else {
         senha.type = 'password';
     }
     
-    this.querySelector('i').classList.toggle('bi-eye-fill');
+    this.querySelector('i').classList.toggle('bi-eye-fill'); /* this -> showPasswordBtn */
     this.querySelector('i').classList.toggle('bi-eye-slash-fill');
 });
 
