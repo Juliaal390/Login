@@ -6,6 +6,7 @@
     --hover: #27bfbf;
     --contorno: #D9D9D9;
     --fundo: #FFFBFB;
+    --erro: rgba(234, 141, 141, 1);
 }
 
 body{
@@ -114,6 +115,9 @@ a:hover, #link a:hover{
 }
 input{
     outline: none;
+}
+#email:user-invalid, #senha:user-invalid{
+    border: 2px solid var(--erro);
 }
 
 @media screen and (min-width:1024px){
