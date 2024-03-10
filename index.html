@@ -17,11 +17,11 @@
             <h2>Login</h2>
             <form action="#">
                 <label for="email">Email:</label>
-                <input type="text" id="email" name="email" required>
+                <input type="text" id="email" name="email" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" required>
                 
                 <label for="senha">Senha:</label>
                 <div class="password-container">
-                    <input type="password" id="senha" class="password-input" required minlength="6" maxlength="30" name="senha">
+                    <input type="password" id="senha" class="password-input" required minlength="6" maxlength="30" name="senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
                     <button type="button" class="password-toggle-btn" id="showPasswordBtn">
                         <i class="bi bi-eye-fill"></i>
                     </button>
