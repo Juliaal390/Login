@@ -11,10 +11,10 @@ document.getElementById('showPasswordBtn').addEventListener('mousedown', (e)=> {
     botao.querySelector('i').classList.toggle('bi-eye-slash-fill');
 });
 
-document.getElementById('senha').addEventListener('focus', function() {
+document.getElementById('senha').addEventListener('focus', ()=> {
     document.getElementById('showPasswordBtn').style.visibility = "visible";
 });
 
-document.getElementById('senha').addEventListener('blur', function() {
+document.getElementById('senha').addEventListener('blur', ()=> {
     document.getElementById('showPasswordBtn').style.visibility = "hidden";
 });
