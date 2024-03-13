@@ -21,7 +21,3 @@ Figma foi a ferramenta escolhida para para prototipar a interface do site, e foi
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"> <br>
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="figma">
 </p>
-
-
-# Responsividade
-<p>Projeto feito para se adequar à dispositivos móveis e desktop</p>
