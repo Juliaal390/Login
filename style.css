@@ -114,15 +114,12 @@ a:hover, #link a:hover{
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 30%;
+    top: 50%;
     right: 10px;
     transform: translateY(-50%);
 }
 input{
     outline: none;
-}
-#email:user-invalid, #senha:user-invalid{
-    border: 1px solid var(--erro);
 }
 
 @media screen and (min-width:1024px){
