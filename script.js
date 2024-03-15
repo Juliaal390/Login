@@ -28,13 +28,12 @@ btnEntrar.addEventListener('click', (e)=>{
     if(!email.checkValidity()){
         message = email.validationMessage;
         email.style.borderColor ='#cd1c0c';
-        error.innerHTML=message;
-        e.preventDefault(); /* impede que o balão de mensagem apareça e que o form seja enviado */
+        e.preventDefault();
     }
     if(!senha.checkValidity()){
         message = senha.validationMessage;
         senha.style.borderColor ='#cd1c0c';
-        error.innerHTML=message;
-        e.preventDefault(); /* impede que o balão de mensagem apareça e que o form seja enviado */
+        e.preventDefault();
     }
+    error.innerHTML=message;
 });
