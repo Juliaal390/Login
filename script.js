@@ -23,10 +23,11 @@ document.getElementById('senha').addEventListener('blur', ()=> {
     document.getElementById('showPasswordBtn').style.visibility = "hidden";
 });
 
-btnEntrar.addEventListener('click', ()=>{
+btnEntrar.addEventListener('click', (e)=>{
     let message = null;
     if(!email.checkValidity()){
         message = email.validationMessage;
     }
     error.innerHTML=message;
-})
+    e.preventDefault(); /* impede que o balão de mensagem apareça */
+});
