@@ -42,12 +42,17 @@ label{
     margin: 3vw;
     box-shadow: 2px 2px 10px var(--azul3);
 }
+#email{
+    margin-bottom: 2rem;
+}
+.errorMsg{
+    color: var(--erro);
+}
 
 #email,#senha{
     width: 100%;
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 2rem;
     box-sizing: border-box;
     background-color: var(--fundo);
     border: 1px solid var(--contorno);
@@ -130,7 +135,7 @@ input{
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 5rem;
+        font-size: 4rem;
         grid-column: 2/span 1; /* começa na coluna 2 e permanece em apenas 1 coluna*/
         grid-row: 1/span 1;
     }

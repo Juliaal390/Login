@@ -1,6 +1,10 @@
+let senha = document.getElementById('senha');
+let email = document.getElementById('email');
+let error = document.getElementById('error');
+let btnEntrar = document.querySelector('.btnForm');
+
 document.getElementById('showPasswordBtn').addEventListener('mousedown', (e)=> {
     e.preventDefault(); /* Cancela o evento se for cancelável, sem parar a propagação do mesmo */
-    let senha = document.getElementById('senha');
     if (senha.type === 'password') {
         senha.type = 'text';
     } else {
@@ -18,3 +22,11 @@ document.getElementById('senha').addEventListener('focus', ()=> {
 document.getElementById('senha').addEventListener('blur', ()=> {
     document.getElementById('showPasswordBtn').style.visibility = "hidden";
 });
+
+btnEntrar.addEventListener('click', ()=>{
+    let message = null;
+    if(!email.checkValidity()){
+        message = email.validationMessage;
+    }
+    error.innerHTML=message;
+})
