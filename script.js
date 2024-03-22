@@ -10,7 +10,7 @@ document.getElementById('showPasswordBtn').addEventListener('mousedown', (e)=> {
     } else {
         senha.type = 'password';
     }
-    let botao = this.querySelector('i');
+   let botao = document.getElementById('showPasswordBtn');
     botao.querySelector('i').classList.toggle('bi-eye-fill'); /* this -> showPasswordBtn */
     botao.querySelector('i').classList.toggle('bi-eye-slash-fill');
 });
